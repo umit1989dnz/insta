@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ALBAS.TTF">
+            <string>AlbaSuper</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram-2" translatesAutoresizingMaskIntoConstraints="NO" id="lIF-pc-0md">
+                                <rect key="frame" x="103" y="54" width="150" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="WpJ-U0-GL7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifying-glass" translatesAutoresizingMaskIntoConstraints="NO" id="dC6-7g-jUH">
+                                <rect key="frame" x="138" y="89" width="165" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="bO5-3Q-QqE"/>
+                                    <constraint firstAttribute="width" constant="165" id="xc9-yq-W2K"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desing &amp; Developer by DnZ Group" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TG4-uO-zj4">
+                                <rect key="frame" x="36" y="638" width="284" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insta zoom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IA3-Vk-2Qf">
+                                <rect key="frame" x="82" y="223" width="192" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Lds-Gz-jFb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AlbaSuper" family="Alba Super" pointSize="28"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97227032229999999" green="0.97920274169999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="dC6-7g-jUH" secondAttribute="trailing" constant="56" id="3Cn-aV-bLP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TG4-uO-zj4" secondAttribute="trailing" constant="39" id="IJw-Lg-zDu"/>
+                            <constraint firstItem="lIF-pc-0md" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="87" id="QSp-bD-0TB"/>
+                            <constraint firstItem="lIF-pc-0md" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="54" id="SyW-Mm-lhu"/>
+                            <constraint firstItem="IA3-Vk-2Qf" firstAttribute="centerX" secondItem="TG4-uO-zj4" secondAttribute="centerX" id="WT1-lD-7z5"/>
+                            <constraint firstItem="TG4-uO-zj4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="elB-Qm-Dze"/>
+                            <constraint firstItem="lIF-pc-0md" firstAttribute="centerX" secondItem="IA3-Vk-2Qf" secondAttribute="centerX" id="h6e-L5-Pmm"/>
+                            <constraint firstItem="dC6-7g-jUH" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="89" id="jry-2S-tAy"/>
+                            <constraint firstItem="IA3-Vk-2Qf" firstAttribute="top" secondItem="lIF-pc-0md" secondAttribute="bottom" constant="32" id="oC4-vu-pfo"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="TG4-uO-zj4" secondAttribute="bottom" constant="8" symbolic="YES" id="uVQ-Q7-sMS"/>
+                            <constraint firstItem="IA3-Vk-2Qf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="66" id="w93-9s-yLC"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="instagram-2" width="512" height="512"/>
+        <image name="magnifying-glass" width="512" height="512"/>
+    </resources>
+</document>
