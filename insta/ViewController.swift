@@ -68,7 +68,7 @@ class ViewController: UIViewController,UIWebViewDelegate,UITextFieldDelegate {
                         
                         print(status!)
                  
-                       self.lbl.text = "\(status!)"
+                     //  self.lbl.text = "\(status!)"
                     }
                     
                 }catch
